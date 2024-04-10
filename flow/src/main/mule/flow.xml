@@ -20,4 +20,8 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<flow-ref doc:name="Flow Reference" doc:id="49278e0a-b49d-4a21-abbb-703ba210f87e" name="privateflow"/>
 		<flow-ref doc:name="Flow Reference" doc:id="7d8dc2c1-2cb5-4cea-8eb1-9a273c3a0fca" name="Sub_Flow"/>
 	</flow>
+	<flow name="flowFlow1" doc:id="401b2e39-f86a-4236-a6f4-6ffedf296487" >
+		<http:listener doc:name="Listener" doc:id="848075cb-ce91-442d-b3ba-2f1e3fe47170" config-ref="HTTP_Listener_config" path="aa"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0f46737b-4079-4931-95f4-820d38a0ff25" message="aaaaa"/>
+	</flow>
 </mule>
