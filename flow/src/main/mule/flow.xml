@@ -12,6 +12,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="f1a82371-a5e4-4c13-a4c1-d99a3ce806d8" message="this is the main flow"/>
 		<async doc:name="Async" doc:id="78a6a91b-af40-4ded-a9a6-ae92fc1e0364" >
 			<logger level="INFO" doc:name="Logger" doc:id="4b23c7e1-ebc3-47ff-802d-a6cd8bb83dfa" message="1"/>
+			<logger level="INFO" doc:name="Logger" doc:id="3bfbebd3-2aa6-4e7d-8aad-0fc7680254ef" message="modified"/>
 			<logger level="INFO" doc:name="Logger" doc:id="ca62f4c6-1eb5-4530-b536-796fdc3c1de8" message="2"/>
 			<logger level="INFO" doc:name="Logger" doc:id="fec6e8cf-f5b3-4a78-9328-0c3a1a2dc19d" message="3"/>
 			<logger level="INFO" doc:name="Logger" doc:id="1afa570a-b245-4af8-9640-b715e551dc59" message="4"/>
