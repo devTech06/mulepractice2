@@ -23,5 +23,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="flowFlow1" doc:id="401b2e39-f86a-4236-a6f4-6ffedf296487" >
 		<http:listener doc:name="Listener" doc:id="848075cb-ce91-442d-b3ba-2f1e3fe47170" config-ref="HTTP_Listener_config" path="aa"/>
 		<logger level="INFO" doc:name="Logger" doc:id="0f46737b-4079-4931-95f4-820d38a0ff25" message="aaaaa"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0f46737b-4079-4931-95f4-820d38a0ff25" message="awelcome"/>
 	</flow>
 </mule>
